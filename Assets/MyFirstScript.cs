@@ -8,6 +8,8 @@ public class MyFirstScript : MonoBehaviour
         print("Hello World");
         print("this is a script");
         print("I am learning Unity");
+        print("I am having fun");
+    
     }
 
     // Update is called once per frame
