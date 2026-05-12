@@ -167,8 +167,8 @@ GameObject:
   - component: {fileID: 4506402912269469658}
   - component: {fileID: 6376488070606870312}
   - component: {fileID: 5394609483098127208}
-  - component: {fileID: 71932850835466539}
   - component: {fileID: 6035983838806471033}
+  - component: {fileID: 128948120584722766}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -269,20 +269,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &71932850835466539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141097955070044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7859f040362b049bfd81fa2548155f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewComponent
-  isCollectible: 1
-  isTriggerZone: 0
 --- !u!54 &6035983838806471033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -310,6 +296,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &128948120584722766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141097955070044656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7859f040362b049bfd81fa2548155f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewComponent
+  isCollectible: 1
+  isTriggerZone: 0
 --- !u!1 &5100413868962604301
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +322,6 @@ GameObject:
   - component: {fileID: 438178516013211979}
   - component: {fileID: 8421214680580519994}
   - component: {fileID: 5634381826519457375}
-  - component: {fileID: 5157011989507103860}
   m_Layer: 0
   m_Name: SpecialCylinder
   m_TagString: Untagged
@@ -428,20 +427,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &5157011989507103860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5100413868962604301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7859f040362b049bfd81fa2548155f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewComponent
-  isCollectible: 1
-  isTriggerZone: 0
 --- !u!1 &8941614924598686696
 GameObject:
   m_ObjectHideFlags: 0
